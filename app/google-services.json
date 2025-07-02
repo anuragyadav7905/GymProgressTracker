@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "393349434107",
+    "project_id": "gymprogresstracker-41268",
+    "storage_bucket": "gymprogresstracker-41268.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393349434107:android:6ae4514a611634993e3e5e",
+        "android_client_info": {
+          "package_name": "com.gymprogresstracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCefL6wWP_v_5CBeE7v04nkwFIf5190JmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

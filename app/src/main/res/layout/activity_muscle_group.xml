@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnChest"
+            android:text="Chest"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1F1F1F"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnBiceps"
+            android:text="Biceps"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1F1F1F"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnTriceps"
+            android:text="Triceps"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1F1F1F"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnShoulders"
+            android:text="Shoulders"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1F1F1F"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:text="Back"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1F1F1F"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnLegs"
+            android:text="Legs"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1F1F1F"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

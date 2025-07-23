@@ -3,6 +3,7 @@ package com.gymprogresstracker;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
+import com.google.android.gms.common.SignInButton;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.IntentSenderRequest;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -60,7 +61,8 @@ public class LoginActivity extends AppCompatActivity {
                 .setAutoSelectEnabled(true)
                 .build();
 
-        startOneTapSignIn();
+        SignInButton googleButton = findViewById(R.id.btnGoogleSignIn);
+        googleButton.setOnClickListener(v -> startOneTapSignIn());
     }
 
     private void startOneTapSignIn() {
@@ -80,7 +82,6 @@ public class LoginActivity extends AppCompatActivity {
         firebaseAuth.signInWithCredential(credential)
                 .addOnCompleteListener(this, task -> {
                     if (task.isSuccessful()) {
-                        // Success: go to main activity
                         Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(this, MainActivity.class));
                         finish();

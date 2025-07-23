@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginBottom="12dp"
+    android:background="#1F1F1F"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Left Plate"
+        android:inputType="number"
+        android:textColorHint="#BBBBBB"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#444" />
+
+    <EditText
+        android:id="@+id/etRight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Right Plate"
+        android:inputType="number"
+        android:textColorHint="#BBBBBB"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#444" />
+
+    <EditText
+        android:id="@+id/etRodOrWeight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Rod / Weight"
+        android:inputType="number"
+        android:textColorHint="#BBBBBB"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#444" />
+
+    <EditText
+        android:id="@+id/etReps"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Reps"
+        android:inputType="number"
+        android:textColorHint="#BBBBBB"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#444" />
+</LinearLayout>
